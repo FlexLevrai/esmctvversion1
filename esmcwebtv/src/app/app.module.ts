@@ -7,6 +7,9 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { WebsiteComponent } from './website/website.component';
 import { HomeComponent } from './website/home/home.component';
+import { CardEmissionComponent } from './website/home/card-emission/card-emission.component';
+import { EmissionComponent } from './website/emission/emission.component';
+import { VideoComponent } from './website/video/video.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { HomeComponent } from './website/home/home.component';
     HeaderComponent,
     FooterComponent,
     WebsiteComponent,
-    HomeComponent
+    HomeComponent,
+    CardEmissionComponent,
+    EmissionComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,

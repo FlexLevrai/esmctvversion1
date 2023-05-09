@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { CardEmission } from 'src/app/modeles/card_emission.model';
+import { CardEmission } from '../../modeles/card_emission.model';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'app-emission',
+  templateUrl: './emission.component.html',
+  styleUrls: ['./emission.component.scss'],
 })
-export class HomeComponent implements OnInit {
+export class EmissionComponent implements OnInit {
   cardEmission!: CardEmission[];
   constructor() {}
 
