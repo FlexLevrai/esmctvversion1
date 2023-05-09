@@ -1,0 +1,35 @@
+.programmes-tv {
+    padding: 20px;
+  }
+  
+  .programmes-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .programme {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+  }
+  
+  .programme-thumbnail {
+    width: 100px;
+  }
+  
+  .programme-details {
+    margin-left: 10px;
+  }
+  
+  .programme-details h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .programme-details p {
+    margin: 5px 0;
+  }
+  

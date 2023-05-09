@@ -10,6 +10,7 @@ import { HomeComponent } from './website/home/home.component';
 import { CardEmissionComponent } from './website/home/card-emission/card-emission.component';
 import { EmissionComponent } from './website/emission/emission.component';
 import { VideoComponent } from './website/video/video.component';
+import { LiveComponent } from './website/live/live.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { VideoComponent } from './website/video/video.component';
     HomeComponent,
     CardEmissionComponent,
     EmissionComponent,
-    VideoComponent
+    VideoComponent,
+    LiveComponent
   ],
   imports: [
     BrowserModule,

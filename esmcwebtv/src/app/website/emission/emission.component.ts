@@ -7,66 +7,55 @@ import { CardEmission } from '../../modeles/card_emission.model';
   styleUrls: ['./emission.component.scss'],
 })
 export class EmissionComponent implements OnInit {
-  cardEmission!: CardEmission[];
-  constructor() {}
+  programmes: any[] = [
+    {
+      title: 'Émission 1',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 2',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 3',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 4',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 5',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 6',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 7',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 8',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 9',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      title: 'Émission 10',
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60'
+    },
+    {
+      thumbnail: 'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      title: 'Émission 11'
+    },
+
+    // Ajoutez d'autres Émissions ici...
+  ];
 
   ngOnInit(): void {
-    this.cardEmission = [
-      {
-        id: 1,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 2,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 3,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 4,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 5,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 6,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 7,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 8,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 9,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 10,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-      {
-        id: 11,
-        title: 'Lorem ipsum dolor, sit amet consectetur',
-        img: 'https://plus.unsplash.com/premium_photo-1678170398101-237845e645ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
-      },
-    ];
   }
 }
