@@ -1,12 +1,12 @@
 <div class="programmes-tv">
-  <h1>Programmes TV</h1>
-  <div class="programmes-list">
-    <div *ngFor="let programme of programmes" class="programme">
+  <h1 class="">Nos Emissions Télé</h1>
+  <div class="row programmes-list">
+    <div *ngFor="let programme of programmes" class="programme custom-cursor">
       <div class="programme-thumbnail">
-        <img [src]="programme.thumbnail" alt="Programme Thumbnail">
+        <img [src]="programme.thumbnail" alt="Programme Thumbnail" />
       </div>
       <div class="programme-details">
-        <h2>{{ programme.title }}</h2>
+        <h2 class="mt-2">{{ programme.title }}</h2>
       </div>
     </div>
   </div>
