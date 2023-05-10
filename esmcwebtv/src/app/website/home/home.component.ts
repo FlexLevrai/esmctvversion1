@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
     this.cardEmission = [
       {
         id: 1,
-        title: 'Le Jardin d\'Eden',
+        title: "Le Jardin d'Eden",
         img: 'https://webtv.esmcgie.com/assets/image/jardin.webp',
       },
       {
@@ -67,6 +67,11 @@ export class HomeComponent implements OnInit {
         title: 'Paradis',
         img: 'https://webtv.esmcgie.com/assets/image/paradis.webp',
       },
+
+      // Ajouter des Emissions ici
     ];
+  }
+  scrolToTop(): void {
+    window.scrollTo(0, 0);
   }
 }
