@@ -17,7 +17,7 @@ cursor: pointer;
 
 }
 .img-logo{
-  margin-left:400%;
+  margin-left:60%;
 }
 
   .butt1{
@@ -38,7 +38,6 @@ cursor: pointer;
     border-color: white;
     background-color: white !important;
     color: #ae3764;
-    margin-left:4%;
 
 }
   .butt2:hover {
@@ -46,7 +45,6 @@ cursor: pointer;
     color: black;
 }
 .nav1{
-  margin-right: 10%;
   font-size: 20px;
 }
 
@@ -58,6 +56,33 @@ cursor: pointer;
   z-index: 1;
 }
 
+@media (min-width: 200px) {
+  .img-logo{
+    margin-left:10%;
+  }
+  .info{
+    display: none;
+
+   }
+}
+@media (min-width: 100px) {
+  .img-logo{
+    margin-left:10%;
+  }
+  .info{
+    display: none;
+
+   }
+}
+@media (min-width: 300px) {
+  .img-logo{
+    margin-left:10%;
+  }
+  .info{
+    display: none;
+
+   }
+}
 @media (min-width: 400px) {
   .img-logo{
     margin-left:10%;
@@ -72,12 +97,12 @@ cursor: pointer;
     margin-left:15%;
   }
  .info{
-  display: flex;
+  display: none;
 
  }
-
 }
 @media (min-width: 992px ) {
+
   .img-logo{
     margin-left:15%;
   }
@@ -88,46 +113,25 @@ cursor: pointer;
 }
 @media (min-width: 1200px) {
 
+.img-logo{
+  margin-left:130%;
+}
+.nav2{
+  .butt1{
+    margin-left: 40%;
+  }
+  .butt2{
+    margin-left: 40%;
+    width: 170px;
+  }
+}
+
 }
 @media (min-width: 1400px) {
   .img-logo{
-    margin-left:225px;
+    margin-left:170px;
   }
-
+  .butt2{
+    justify-content: end;
+  }
 }
-
-
- /*  @media screen and (max-width: 1024px) {
-    .img-logo{
-      margin-left:100%;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .img-logo{
-      margin-left:0%;
-    }
-
-  }
-
-  @media (max-width: 48em) {
-    .img-logo{
-      margin-left:15%;
-    }
-   .info{
-    display: none;
-
-   }
-
-  }
-
-  @media (max-width: 27em) {
-    .img-logo{
-      margin-left:10%;
-    }
-    .info{
-      display: none;
-
-     }
-    } */
-
