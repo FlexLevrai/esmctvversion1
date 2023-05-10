@@ -102,7 +102,8 @@ cursor: pointer;
  }
 }
 @media (min-width: 992px ) {
-
+  .info{
+  }
   .img-logo{
     margin-left:15%;
   }
@@ -112,9 +113,10 @@ cursor: pointer;
  }
 }
 @media (min-width: 1200px) {
-
+  .info{
+  }
 .img-logo{
-  margin-left:130%;
+  margin-left:10%;
 }
 .nav2{
   .butt1{
@@ -128,10 +130,21 @@ cursor: pointer;
 
 }
 @media (min-width: 1400px) {
+  .info{
+  }
   .img-logo{
-    margin-left:170px;
+    margin-left:60px;
+  }
+ .nav1{
+  margin-right:10%;
+ }
+  .butt1{
+    margin-left:-10%;
+
   }
   .butt2{
-    justify-content: end;
+    width: 190px;
+    margin-right:-85px;
+
   }
 }
