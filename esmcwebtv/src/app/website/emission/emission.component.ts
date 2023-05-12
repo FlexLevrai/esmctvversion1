@@ -9,57 +9,46 @@ export class EmissionComponent implements OnInit {
   programmes: any[] = [
     {
       title: "Le Jardin d'Eden",
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/jardin.png',
     },
     {
       title: 'Arche de Noé',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/arch.png',
     },
     {
       title: 'Royaume des Cieux et de la Terre',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/r.png',
     },
     {
       title: 'Le Bâton de Moïse',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/baton.png',
     },
     {
       title: 'Le Christ',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/christ.png',
     },
     {
       title: 'Sceau des Prophetes',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/sceau.png',
     },
     {
       title: 'Mashia Messie Mahdi',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/3m.png',
     },
     {
       title: 'Jour de la Religion',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/jourreligion.png',
     },
     {
       title: 'Jour dernier',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/jourdernier2.jpg',
     },
     {
       title: 'Resurection',
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: './assets/image/resurrection.png',
     },
     {
-      thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+      thumbnail: '../../assets/image/paradis.png',
       title: 'Le Paradis',
     },
 
