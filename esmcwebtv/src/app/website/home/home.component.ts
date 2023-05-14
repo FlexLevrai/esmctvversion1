@@ -14,59 +14,64 @@ export class HomeComponent implements OnInit {
     this.cardEmission = [
       {
         id: 1,
-        title: 'Le Jardin d\'Eden',
-        img: 'https://webtv.esmcgie.com/assets/image/jardin.webp',
+        title: "Le Jardin d'Eden",
+        img: './assets/image/jardin.webp',
       },
       {
         id: 2,
         title: 'Arche De Noé',
-        img: 'https://webtv.esmcgie.com/assets/image/arch.webp',
+        img: './assets/image/arch.webp',
       },
       {
         id: 3,
         title: 'Royaume des Cieux et de la Terre',
-        img: 'https://webtv.esmcgie.com/assets/image/rct.webp',
+        img: './assets/image/rct.webp',
       },
       {
         id: 4,
         title: 'Le Bâton de Moïse',
-        img: 'https://webtv.esmcgie.com/assets/image/b.webp',
+        img: './assets/image/b.webp',
       },
       {
         id: 5,
         title: 'Le Christ',
-        img: 'https://webtv.esmcgie.com/assets/image/christ.webp',
+        img: './assets/image/christ.webp',
       },
       {
         id: 6,
         title: 'Sceau des Prophetes',
-        img: 'https://webtv.esmcgie.com/assets/image/sceau.webp',
+        img: './assets/image/sceau.webp',
       },
       {
         id: 7,
         title: 'Mashia Messie Mahdi',
-        img: 'https://webtv.esmcgie.com/assets/image/3m.webp',
+        img: './assets/image/3m.webp',
       },
       {
         id: 8,
         title: 'Jour de la Religion',
-        img: 'https://webtv.esmcgie.com/assets/image/jourreligion.webp',
+        img: './assets/image/jourreligion.webp',
       },
       {
         id: 9,
         title: 'Jour dernier',
-        img: 'https://webtv.esmcgie.com/assets/image/jourdernier.webp',
+        img: './assets/image/jourdernier.webp',
       },
       {
         id: 10,
         title: 'Resurection',
-        img: 'https://webtv.esmcgie.com/assets/image/resurection.webp',
+        img: './assets/image/resurection.webp',
       },
       {
         id: 11,
         title: 'Paradis',
-        img: 'https://webtv.esmcgie.com/assets/image/paradis.webp',
+        img: './assets/image/paradis.webp',
       },
+
+      // Ajouter des Emissions ici
     ];
+  }
+  scrolToTop(): void {
+    window.scrollTo(0, 0);
   }
 }
