@@ -10,7 +10,7 @@ export class EmissionComponent implements OnInit {
     {
       title: "Le Jardin d'Eden",
       thumbnail:
-        'https://plus.unsplash.com/premium_photo-1664875849504-9a85b393d572?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=280&q=60',
+        './assets/image/jardin.png',
     },
     {
       title: 'Arche de Noé',
