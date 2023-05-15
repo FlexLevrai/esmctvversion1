@@ -2,21 +2,115 @@
 
 <!-- VIDEO NAV -->
 <nav class="bg-black sticky-top text-white py-1">
-  <h2 class="text-center m-0">Titre Emission</h2>
+  <h2 class="text-center m-0">{{ title }}</h2>
 
   <div class="d-flex justify-content-center gap-2">
-    <div class="p-1 custom-cursor">Francais</div>
-    <div class="p-1 custom-cursor">Ewe</div>
-    <div class="p-1 custom-cursor">Kotokoli</div>
-    <div class="p-1 custom-cursor">Kabye</div>
+    <div class="p-1 custom-cursor">
+      <a class="a" href="/video/1" routerLinkActive="router-link-active"
+        >Francais</a
+      >
+    </div>
+    <div class="p-1 custom-cursor"><a class="a" href="">Ewe</a></div>
+    <div class="p-1 custom-cursor"><a class="a" href="">Kotokoli</a></div>
+    <div class="p-1 custom-cursor"><a class="a" href="">Kabye</a></div>
   </div>
 </nav>
 
 <!-- BODY -->
 
-<div class="player my-4">
+<div class="player my-4" *ngIf="idProg == 1">
   <iframe
-    src="https://player.viloud.tv/embed/channel/29823d92af1c321b486d986c09647d73?autoplay=1&volume=1&controls=1&title=1&share=1&open_playlist=0&random=0"
+    src="https://player.viloud.tv/embed/channel/3f5ac893edbf03549d94062c80340a4a"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 2">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/161505eaf6ee6679d8bcd78272f7bbdb"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 3">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/6144a419d1b1e8ab9cd03c94575b3bd2"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 4">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/2a0aa49b21201785bf81896594e53195"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 5">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/2dc75b71565ccc6d369d7a677e91fb48"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 6">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/abf1e1700a6643d7b2fb2e0a1584d261"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 7">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/c43a6180789d442ffc0bbcef3e109275"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 8">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/6109301f8b9d3d47c7d6512bb6169060"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 9">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/598a908c2b097271c119e81569b18f0a"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 10">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/54caa7dd2c7f44f59d5aa2f961618d43"
+    frameborder="0"
+    allow="autoplay"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+<div class="player my-4" *ngIf="idProg == 11">
+  <iframe
+    src="https://player.viloud.tv/embed/channel/10a8e175ba3fc2a83ef894a8ece49bee"
     frameborder="0"
     allow="autoplay"
     allowfullscreen
@@ -32,8 +126,8 @@
         class="card-img-top img-fluid"
         alt="..."
       />
-      <div class="card-body p-2">
-        <h5 class="card-title">Episide 1</h5>
+      <div class="card-body">
+        <h5 class="card-title">Episode 1</h5>
       </div>
     </div>
   </div>
