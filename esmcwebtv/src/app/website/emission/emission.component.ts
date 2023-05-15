@@ -9,8 +9,7 @@ export class EmissionComponent implements OnInit {
   programmes: any[] = [
     {
       title: "Le Jardin d'Eden",
-      thumbnail:
-        './assets/image/jardin.png',
+      thumbnail:'./assets/image/jardin.png',
     },
     {
       title: 'Arche de Noé',
