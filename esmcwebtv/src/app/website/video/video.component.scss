@@ -10,6 +10,15 @@ iframe {
   width: 80%;
   height: 100%;
 }
+.a{
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  &:focus{
+    color: red;
+  }
+}
 
 @media (max-width: 41em) {
   .player {
